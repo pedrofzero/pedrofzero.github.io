@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;  
+    background-color: #0F0D0D; 
+    padding: 40px;
+
+
+}
+
+p {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    color: rgba(255,255,255,.70);
+  }
+
+.header-right {
+    float: right;
+    color:#03E12D;
+}
+
+
+@keyframes texto {
+    0%   { width: 0px; }
+    100% { width: 700px; }
+
+}
+
+.type { 
+    margin-top: 150px;
+    margin-left: 680px;
+    top: 50%;
+
+    color: #03E12D;
+    animation: texto 2s steps(30, end) 1s 1 normal both;
+    position: relative;
+}
+  
+.container {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+}
+
+.term {
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+    width: 720px;
+    height: 420px;
+    background: #131111;
+        border: 3px solid #03E12D;
+    border-radius: 25px;
+
+}
+
+/* .overlap {
+    z-index: 9;
+    width: 900px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background: #131111;
+    border: 2px solid #03E12D;
+ 
+}
+*/
+
+.iconlinks {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+}
+
+a {
+    padding: 10px;
+    color: #03E12D;
+}
+
+a .homepage {
+    float: left;
+    margin: 0 auto;
+    padding: 0 auto;
+    top: 0;
+    left: 0;
+}
+
+.vanilla-terminal {
+    color: white;
+}
+
+#terminal {
+    overflow: hidden;
+    margin: 5px;
+}
